@@ -17,3 +17,16 @@ $ NODE_ENV=production node app.js
 # 設定
 ## MySQL
 環境にそってconfig/default.jsonなどのmysqlの値を変更する必要がある
+
+# データベース
+## migrations
+```
+$ knex migrate:latest
+$ knex migrate:rollback
+```
+※ knexコマンドが使えることが前提
+
+## seeds
+```
+$ knex seed:run
+```
