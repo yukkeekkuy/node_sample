@@ -3,7 +3,9 @@ Node.js(Express)サンプル
 
 # 起動
 ```
-$ node app.js
+$ npm start
+// package.jsonで以下コマンドを定義している
+// $ node app.js
 ```
 * この場合、config/default.jsonを使う
 

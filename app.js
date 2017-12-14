@@ -1,7 +1,7 @@
 'use strinct'
 
 const express = require('express');
-const knex = require('./lib/mysql');
+const knex = require('lib/mysql');
 const app = express();
 const router = express.Router();
 
