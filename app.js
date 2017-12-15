@@ -65,7 +65,7 @@ router.get('/error', (err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
-let port = 3000;
+const port = 3000;
 app.listen(port, () => {
-  console.log(‘Expressサーバー起動’);
+  console.log('Expressサーバー起動');
 });
