@@ -66,6 +66,6 @@ router.get('/error', (err, req, res, next) => {
 });
 
 let port = 3000;
-app.listen(port, ()=> {
+app.listen(port, () => {
   console.log(‘Expressサーバー起動’);
 });
